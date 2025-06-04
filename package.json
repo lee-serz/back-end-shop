@@ -1,12 +1,12 @@
 {
-	"name": "back-end-amazon-v2",
+	"name": "back-end",
 	"version": "0.0.1",
-	"description": "Special development for Youtube Video",
-	"author": "Max Shushval [RED GROUP]",
+	"description": "",
+	"author": "",
 	"private": true,
 	"license": "UNLICENSED",
 	"scripts": {
-		"build": "nest build",
+		"build": "npx prisma db push && npx prisma generate && nest build",
 		"format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
 		"start": "nest start",
 		"start:dev": "nest start --watch",
